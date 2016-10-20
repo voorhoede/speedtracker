@@ -16,7 +16,7 @@ default: false
 # with a minimum value of 12, as only two scheduled tests per day are allowed.
 # To disabled repeated tests, simply remove this property from the profile.
 #
-interval: 12
+#interval: 12
 
 #
 # WebPageTest test parameters
@@ -36,11 +36,11 @@ parameters:
 #
 # https://github.com/speedtracker/speedtracker-api/blob/master/lib/SpeedTracker.js#L18-L37
 #
-#budgets:
+budgets:
 #  -
-#    metric: TTFB
-#    max: 600
-#    alerts: ["emailAlert", "slackAlert"]
+    metric: firstPaint
+    max: 1000
+    alerts: ["slackAlert"]
 #  -
 #    metric: firstPaint
 #    max: 2000
