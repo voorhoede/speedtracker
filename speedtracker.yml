@@ -79,10 +79,10 @@ wptKey: "a1c6d9a5f2ad12d0e395f871d3da32c0ca92c3651c84baa0b28629abdba53d23460a"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-#alerts:
-#  emailAlert:
-#    type: "email"
-#    recipients: ["8a8dcffaf5a13797beccbc20dad9619dd7cf9c"]
+alerts:
+  emailAlert:
+    type: "email"
+    recipients: ["8a8dcffaf5a13797beccbc20dad9619dd7cf9c"]
 #  otherEmailAlert:
 #    type: "email"
 #    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
