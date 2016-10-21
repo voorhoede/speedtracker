@@ -24,7 +24,7 @@ default: false
 parameters:
   connectivity: "Cable"
   location: "ec2-eu-central-1:Chrome"
-  runs: 5
+  runs: 1
   url: "https://www.voorhoede.nl/"
 
 #
@@ -38,9 +38,9 @@ parameters:
 #
 #budgets:
 #  -
-#    metric: firstPaint
-#    max: 1000
-#    alerts: ["emailAlert"]
+#    metric: TTFB
+#    max: 600
+#    alerts: ["emailAlert", "slackAlert"]
 #  -
 #    metric: firstPaint
 #    max: 2000
